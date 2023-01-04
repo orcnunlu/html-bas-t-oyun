@@ -1,1 +1,1 @@
-# html-bas-t-oyun
+# html-basıt-oyun
