@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <title>Taş - Kağıt - Makas</title>
+</head>
+<body>
+  <header>
+    <h1 class="title">Designed By Orçunpars</h1>
+    <h1 class="title">Taş - Kağıt - Makas</h1>
+  </header>
+  <div class="btn-container">  
+    <button id="restart" class="restart-btn">Yeniden Başlat</button>
+  </div>
+  <div class="score-board">
+    <div id="user-badge" class="badge">Siz</div>
+    <div id="cpu-badge" class="badge">Rakip</div>
+    <span id="kullanıcı-skor">0</span>:<span id="pc-skor">0</span>
+  </div>
+  <div class="choices">
+    <div id="taş" class="choice">
+      <img src="images/taş.png" alt="">
+    </div>
+    <div id="kağıt" class="choice">
+      <img src="images/kağıt.png" alt="">
+    </div>
+    <div id="makas" class="choice">
+      <img src="images/makas.png" alt="">
+    </div>
+  </div>
+  <h2>Make your choice</h2>
+
+  <!-- Modal -->
+  <div class="modal">
+    <div id="result" class="modal-content"></div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
